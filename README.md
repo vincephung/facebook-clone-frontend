@@ -1,4 +1,7 @@
-# Facebook Clone
+# Facebook Clone Front end
+
+This is the front end view of the Facebook Clone Project. The backend can be found here.  https://github.com/vincephung/facebook-clone
+
 Technologies used: JavaScript, React, Node.js, Express, MongoDB(mongoose), HTML, CSS(Bootstrap)
 
 Developed a full stack social media application based on Facebook.
