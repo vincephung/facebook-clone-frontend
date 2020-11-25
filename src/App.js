@@ -45,7 +45,7 @@ function App() {
   };
 
   return (
-    <Router basename="/facebook-clone">
+    <Router>
       <Switch>
         <Route
           exact

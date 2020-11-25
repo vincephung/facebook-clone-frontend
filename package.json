@@ -1,5 +1,6 @@
 {
   "name": "facebook-clone-frontend",
+  "homepage": "https://facebook-clone-vp.herokuapp.com/home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
