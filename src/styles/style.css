@@ -1,0 +1,55 @@
+.profile-header {
+  display: flex;
+  border: 1px solid black;
+}
+
+.headerLinks {
+  border: 1px solid black;
+  display: flex;
+}
+
+.frAmount.active {
+  display: block;
+}
+
+.frAmount .accountModal {
+  opacity: 0;
+  background-color: red;
+}
+
+.accountModal {
+  background-color: red;
+}
+
+.chat-Section {
+  display: flex;
+  justify-content: flex-end;
+}
+.friendChatContainer {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+.friendChatContainer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.openChat {
+  visibility: visible;
+  margin: 1em 0;
+  height: auto;
+  transition: all 150ms ease;
+}
+
+.closeChat {
+  transition: all 150ms ease;
+  opacity: 0;
+  height: 1px;
+  visibility: hidden;
+  margin-top: -10px;
+}
+.chat {
+  border: 1px solid black;
+}

@@ -1,0 +1,169 @@
+.timelinePostContainer {
+  margin-top: 20px;
+  width: 40%;
+}
+
+.postContainer {
+  margin-top: 20px;
+  background-color: white;
+}
+.postProfilePicture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.userInfo {
+  display: flex;
+  padding: 10px;
+}
+
+.userInfo figcaption {
+  display: flex;
+  flex-direction: column;
+}
+.userInfo .username {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.userInfo .timestamp {
+  text-decoration: none;
+}
+
+figcaption p {
+  margin: 0;
+}
+.post-text {
+  padding: 20px;
+}
+.reactionContainer {
+}
+
+.reactionContainer button {
+  position: relative;
+  padding: 0;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: Transparent !important;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.reactionContainer button:hover {
+  display: inline;
+}
+.reactionContainer img {
+  width: 100%;
+  border-radius: 50%;
+}
+.legend-reaction {
+  display: none;
+}
+.reactionType img:hover {
+  transform: scale(1.3);
+}
+
+.postReactionAmount {
+  list-style: none;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: blue;
+}
+
+.reactionsComments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reactionBtns {
+  display: flex;
+}
+
+.reactionBtns p {
+  position: relative;
+}
+
+.postReactionContainer {
+}
+.reactionList {
+  border: 1px solid black;
+  position: relative;
+  margin: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  margin-right: auto;
+}
+
+.reactionList li {
+  margin-right: auto;
+  display: flex;
+  list-style-type: none;
+  width: 30px;
+  height: 30px;
+  background-color: Transparent !important;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  outline: none;
+}
+
+.postReactionContainer .reactionList li:hover span {
+  opacity: 1;
+}
+
+.commentContainer {
+}
+.commentImage {
+  width: 50px;
+  height: 50px;
+}
+.commentNumber {
+  margin-right: 10px;
+}
+.postContainer {
+}
+
+.likeComment {
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.likeComment button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.likeBtnContainer,
+.commentBtnContainer {
+  height: 30px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.likeCommentImg {
+  height: 30px;
+  width: 30px;
+}
+
+.hr {
+  border: 1px solid grey;
+}
+
+.createComment {
+  padding: 10px;
+}

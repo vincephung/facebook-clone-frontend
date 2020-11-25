@@ -1,0 +1,25 @@
+.profile-header {
+  display: flex;
+}
+
+.headerNav {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+
+.navSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navName {
+  text-align: center;
+}
+
+.accountPicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

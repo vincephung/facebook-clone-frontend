@@ -1,0 +1,91 @@
+.bioSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(187, 194, 237, 1) 84%
+  );
+}
+
+.userName {
+  font-weight: bold;
+}
+.bioText {
+  color: grey;
+}
+.profileImages,
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileBtnList {
+  display: flex;
+  margin: 10px;
+}
+.profileBtnList li {
+  list-style: none;
+  margin-right: 10px;
+}
+.profileBtn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #dfe3ee;
+  border-radius: 10%;
+}
+
+.profileBtn img {
+  width: 100%;
+}
+
+.msgBtn {
+  width: 100px;
+}
+.msgBtn p {
+  width: 100%;
+}
+.profileContentContainer {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+}
+.infoFriendContainer {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.infoSection {
+  margin-bottom: 10px;
+}
+.friendSection {
+  margin-top: 10px;
+}
+.postSection {
+}
+.friendsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: 1fr;
+}
+.friendsList figure {
+}
+
+.search-people {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}

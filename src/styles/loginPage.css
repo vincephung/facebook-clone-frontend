@@ -1,0 +1,29 @@
+.loginContainer {
+  border: 1px solid black;
+  width: 100%;
+  background-color: #dfe3ee;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeMessage {
+  flex: 1;
+  text-align: center;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.messageHeader {
+  font-size: 3rem;
+  color: #1e90ff;
+  font-weight: bold;
+}
+
+.messageContainer {
+  width: 50%;
+  text-align: left;
+  line-height: 0.5;
+}
