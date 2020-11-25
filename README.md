@@ -1,7 +1,10 @@
 # Facebook Clone
 Technologies used: JavaScript, React, Node.js, Express, MongoDB(mongoose), HTML, CSS(Bootstrap)
+
 Developed a full stack social media application based on Facebook.
+
 Users can create posts, make comments, view profiles, send friend requests or chat with their friends.
+
 Implemented web sockets using Socket.io, which allows users to have 1 on 1 chat sessions.
 
 
