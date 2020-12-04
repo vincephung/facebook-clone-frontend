@@ -16,7 +16,8 @@ This is the front end view of the Facebook Clone Project. The backend can be fou
 * json web tokens (used to store/authenticate user sessions)
 * bycrpt (used to encrypt passwords)
 
-
+## Preview
+![](/src/images/preview.png?raw=true "Optional Title")
 
 ## Requirements
 
